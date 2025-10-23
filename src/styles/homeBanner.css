@@ -1,0 +1,8 @@
+
+.top_border{
+  position: fixed;   
+  width: 600px;           
+  height: 82px;           
+  background: red;
+  z-index: 50;            
+}

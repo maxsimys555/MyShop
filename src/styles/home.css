@@ -1,0 +1,87 @@
+.top_border_home {
+  display: flex;
+}
+.left_menu_home {
+  margin-left: 230px;
+  margin-top: 265px;
+}
+
+.button_menu_home {
+  display: flex;
+  
+  margin-top: 489px;
+  margin-left: 320px;
+  
+  
+}
+.vector {
+  width: 67px;
+  height: 67px;
+  background-color: rgba(110, 156, 159, 0.1);
+  
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button_in_shop {
+  width: 243px;
+  height: 67px;
+  color: white;
+  border: none;
+  background-color: rgba(110, 156, 159, 1);
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+.banner_top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 705px;
+  height: 826px;
+  background: rgba(241, 234, 220, 1);
+  z-index: -5;
+}
+
+.firstImage_home {
+  width: 410px;
+  height: 646px;
+  position: absolute;
+  top: 120px;
+  left: 945px;
+  z-index: -1;
+}
+.secondImage_home {
+  width: 197px;
+  height: 197px;
+  position: absolute;
+  top: 243px;
+  left: 1263px;
+  z-index: 4;
+}
+
+.thirdImage_home {
+  width: 190px;
+  height: 318px;
+  position: absolute;
+  top: 508px;
+  left: 815px;
+  z-index: 2;
+}
+.main_home{
+  width: 1110px; 
+  margin-left: 245px;
+  margin-right: 245px;
+  margin-top: 320px;
+}
+#shop_in_home{
+  margin-top: 200px;
+}
+
+.important_item{
+  width: 350px;
+  height: 272px;
+  display: flex;
+  flex-direction: column;
+}

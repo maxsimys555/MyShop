@@ -1,0 +1,71 @@
+.main_description_brand{
+    width: 261px;
+    height: 111px;
+    margin-left: 245px ;
+    margin-top: 190px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.main_description_brand h1{
+    font-size: 55px;
+    font-weight: normal;
+}
+.main_description_brand h4{
+    font-size: 17px;
+    font-weight: normal;
+}
+.main_brand_block1_text{
+    width: 542px;
+    height: 321px;
+    margin-left: 94px;
+    margin-top: 113px;
+}
+.main_brand_block1_text p{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.main_brand_block2_text p{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.main_brand_block1_text h3{
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 46px;
+}
+.main_brand_block2_text h3{
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 46px;
+}
+.main_brand_block2_text{
+    width: 542px;
+    height: 393px;
+    margin-right: 123px;
+}
+
+.main_brand_block1{
+    display: flex;
+    margin-left: 245px;
+    margin-top: 214px;
+}
+.main_brand_block2{
+    display: flex;
+    margin-top: 130px;
+    margin-left: 245px;
+}
+.onMagazine{
+display: inline-block;
+text-align: center;
+line-height: 68px;
+margin-top: 130px;
+margin-left: 668.5px;
+width: 260px;
+height: 68px;
+background-color: rgba(110, 156, 159, 1);
+color: white;
+border: none;
+cursor: pointer;
+margin-bottom: 130px;
+}

@@ -1,0 +1,90 @@
+
+        .contact-map-wrapper {
+          width: 1109px;
+          height: 476px;
+          border-radius: 16px;
+          overflow: hidden;
+          background: #fff;
+          box-shadow: 0 10px 28px rgba(0,0,0,0.08);
+          margin-left: 245px;
+        }
+        .map-header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 14px 16px;
+          border-bottom: 1px solid rgba(0,0,0,0.06);
+          background: linear-gradient(180deg, #fafafa, #fff);
+        }
+        .map-header h3 {
+          margin: 0;
+          font-size: 18px;
+          font-weight: 600;
+        }
+        .map-actions {
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          flex-wrap: wrap;
+        }
+        .map-btn {
+          border: 0;
+          padding: 8px 12px;
+          border-radius: 10px;
+          background: #111;
+          color: #fff;
+          cursor: pointer;
+          font-size: 14px;
+          transition: transform .06s ease, opacity .2s ease;
+        }
+        .map-btn:disabled {
+          opacity: .5;
+          cursor: not-allowed;
+        }
+        .map-btn:hover:not(:disabled) {
+           transform: translateY(-1px); 
+          } 
+        .follow-toggle {
+
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          font-size: 14px;
+          user-select: none;
+        }
+        .contact-map {
+          width: 100%;
+          height: 420px;
+        }
+        .pulse-marker {
+           position: relative; 
+          }
+        .pulse-dot {
+          width: 18px;
+          height: 18px;
+          background: #e11d48;
+          border-radius: 50%;
+          display: block;
+          position: relative;
+          box-shadow: 0 0 0 rgba(225, 29, 72, 0.4);
+          animation: pulse 2s infinite;
+          border: 2px solid #fff;
+        }
+        @keyframes pulse {
+          0% { box-shadow: 0 0 0 0 rgba(225,29,72,0.6); }
+          70% { box-shadow: 0 0 0 18px rgba(225,29,72,0); }
+          100% { box-shadow: 0 0 0 0 rgba(225,29,72,0); }
+        }
+        .user-marker .user-dot {
+          width: 12px;
+          height: 12px;
+          background: #2563eb;
+          border: 2px solid #fff;
+          border-radius: 50%;
+          display: block;
+        }
+        @media (max-width: 640px) {
+          .contact-map { height: 340px; }
+          .map-header { padding: 10px 12px; }
+          .map-btn { padding: 6px 10px; font-size: 13px; }
+        }

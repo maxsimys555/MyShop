@@ -1,0 +1,84 @@
+footer {
+  width: 1600px;
+  height: 363px;
+  background-color: rgba(241, 234, 220, 1);
+  
+  padding: 0;
+  
+}
+.footer_top{
+  display: flex;
+}
+.logo_low {
+  width: 139px;
+  height: 25px;
+  margin-top: 101px;
+  margin-left: 245px;
+}
+.menu_low {
+  margin-top: 104px;
+  height: 21px;
+  display: flex;
+  margin-left: 146px;
+  gap: 45px;
+  font-size: 15px;
+  padding: 0;
+}
+.contacts_low {
+  width: 158px;
+  height: 51px;
+  margin-left: 267px;
+  margin-top: 104px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+
+}
+.license{
+  width: 204px;
+  height: 66px;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  margin-left: 245px;
+  margin-top: 41px;
+  gap: 6px;
+}
+.footer_product{
+  width: 70px;
+  height: 102px;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 188px;
+  margin-top: 9px;
+}
+.footer_bottom{
+  display: flex;
+}
+.social_visa{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  margin-left: 558px;
+}
+.sociality{
+  height: 23px;
+  display: flex;
+  
+  gap: 12px;
+}
+.instagram{
+  width: 22px;
+  height: 22px;
+}
+.facebook{
+  width: 21px;
+  height: 21px;
+}
+.twitter{
+  width: 23px;
+  height: 23px;
+}
